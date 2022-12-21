@@ -1,6 +1,7 @@
 # RandomizeEncryption
 Maximum randomized encryption
-**Example**
+
+**Example:**
 ```Java
 RandomizeEncryption encryption = new RandomizeEncryption();
 CharSequence encrypt = encryption.encrypt("Hello");
