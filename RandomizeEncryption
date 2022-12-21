@@ -60,7 +60,7 @@ public class RandomizeEncryption {
 			d335.add(t.get(i));
 		}
 	}
-	
+
 	public ArrayList<Character> save() {
 		return d335;
 	}
