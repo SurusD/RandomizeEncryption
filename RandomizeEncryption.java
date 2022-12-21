@@ -54,6 +54,16 @@ public class RandomizeEncryption {
 		return decrypt;
 	}
 
+	public CharSequence mapDecrypt(CharSequence text) {
+		CharSequence decrypt = text;
+
+		for (int k : t.keySet()) {
+			decrypt = decrypt.toString().replace(String.valueOf(k), String.valueOf(t.get(k)));
+		}
+
+		return decrypt;
+	}
+
 	public void returnData() {
 		d335 = new ArrayList<>();
 		for (int i : t.keySet()) {
